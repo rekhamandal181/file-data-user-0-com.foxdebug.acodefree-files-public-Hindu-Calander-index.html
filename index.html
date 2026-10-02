@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>हिंदू नव वर्ष कैलेंडर</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calendar-card">
+    <div class="header">
+      <h2 id="vikram-samvat">विक्रम संवत 2083</h2>
+      <div class="month-nav">
+        <button id="prev-btn">&lt;</button>
+        <h3 id="month-name">मास: चैत्र</h3>
+        <button id="next-btn">&gt;</button>
+      </div>
+    </div>
+
+    <div class="weekdays">
+      <span>रवि</span><span>सोम</span><span>मंगल</span><span>बुध</span>
+      <span>गुरु</span><span>शुक्र</span><span>शनि</span>
+    </div>
+
+    <div class="days-grid" id="days-grid">
+      <!-- Days Javascript se load honge -->
+    </div>
+
+    <div class="footer-info">
+      <p id="today-tithi">आज की तिथि: शुक्ल पक्ष - प्रतिपदा</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
